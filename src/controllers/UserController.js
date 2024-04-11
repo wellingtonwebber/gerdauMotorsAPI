@@ -29,10 +29,5 @@ module.exports = {
         const user = await User.destroy({ where: { id } })
 
         return res.json(user)
-    },
-
-    async login (req, res) {
-
     }
-
 }
